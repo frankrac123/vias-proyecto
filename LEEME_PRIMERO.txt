@@ -1,0 +1,14 @@
+TRAFFIC VISION V3
+=================
+
+1. Instala Python 3.11 o 3.12 de 64 bits desde https://www.python.org/
+   y activa la opcion "Add Python to PATH".
+2. Ejecuta INSTALAR.bat una sola vez. Requiere conexion a Internet.
+3. Ejecuta INICIAR.bat para abrir el programa.
+4. Configura la URL o dispositivo de la camara desde la aplicacion.
+
+La primera instalacion descarga PySide6, PyTorch, OpenCV, Ultralytics y PyAV,
+por lo que puede tardar varios minutos y requiere varios GB libres.
+
+Los datos, sesiones y exportaciones se crean localmente y no vienen incluidos
+en este paquete.

@@ -1,0 +1,31 @@
+{
+  "camera": {
+    "source": "0",
+    "source_type": "usb",
+    "frame_buffer_size": 2,
+    "reconnect_attempts": 5,
+    "reconnect_delay": 2.0
+  },
+  "detection": {
+    "model_path": "yolo11n.pt",
+    "confidence": 0.3,
+    "imgsz": 416,
+    "device": "auto",
+    "classes": [0, 1, 2, 3, 5, 7]
+  },
+  "line": {
+    "x1": 0.5,
+    "y1": 0.0,
+    "x2": 0.5,
+    "y2": 1.0,
+    "name": "Línea Principal",
+    "enabled": true
+  },
+  "export_path": "./exports",
+  "data_path": "./data",
+  "sessions_path": "./sessions",
+  "performance_mode": "balanced",
+  "window_width": 1400,
+  "window_height": 900,
+  "dark_theme": true
+}
